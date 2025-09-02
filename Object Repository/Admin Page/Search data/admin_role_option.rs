@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>verify_list_enabled_status_role</name>
+   <name>admin_role_option</name>
    <tag></tag>
-   <elementGuidId>9a1b0eb9-25fb-4ad6-b9be-1a5ceab15124</elementGuidId>
+   <elementGuidId>07803ae6-23d0-46d9-ac74-b3b3c71a9067</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@role='row']//div[normalize-space()='Enabled']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@role='option' and normalize-space()='${optionName}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

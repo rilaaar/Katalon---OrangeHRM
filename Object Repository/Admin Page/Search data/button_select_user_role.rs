@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>admin_role_option</name>
+   <name>button_select_user_role</name>
    <tag></tag>
-   <elementGuidId>07803ae6-23d0-46d9-ac74-b3b3c71a9067</elementGuidId>
+   <elementGuidId>807dd408-e210-4ab6-9448-b741c06812e0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@role='option' and normalize-space()='${optionName}']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//div[@class='oxd-select-text--after'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

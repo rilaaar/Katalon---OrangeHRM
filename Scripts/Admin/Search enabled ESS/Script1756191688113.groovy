@@ -17,27 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Basic/Open to get url'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('Basic/Auth_login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Admin Page/admin_page_button'))
 
 WebUI.verifyElementPresent(findTestObject('Admin Page/admin_page_title'), 5)
 
-WebUI.click(findTestObject('Admin Page/button_select_user_role'))
+WebUI.click(findTestObject('Admin Page/Search data/button_select_user_role'))
 
-WebUI.click(findTestObject('Admin Page/ESS_role_option', [('optionName') : 'ESS']))
+WebUI.click(findTestObject('Admin Page/Search data/ESS_role_option', [('optionName') : 'ESS']))
 
-WebUI.click(findTestObject('Admin Page/button_select_status'))
+WebUI.click(findTestObject('Admin Page/Search data/button_select_status'))
 
-WebUI.click(findTestObject('Admin Page/enabled_status', [('optionName') : 'Enabled']))
+WebUI.click(findTestObject('Admin Page/Search data/enabled_status', [('optionName') : 'Enabled']))
 
-WebUI.click(findTestObject('Admin Page/button_search'))
+WebUI.click(findTestObject('Admin Page/Search data/button_search'))
 
-WebUI.verifyElementVisible(findTestObject('Admin Page/verify_list_ESS_roleUser'))
+WebUI.verifyElementVisible(findTestObject('Admin Page/Search data/verify_list_ESS_roleUser'))
 
-WebUI.verifyElementVisible(findTestObject('Admin Page/verify_list_enabled_status_role'))
-
-WebUI.callTestCase(findTestCase('Basic/Close browser'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Admin Page/Search data/verify_list_enabled_status_role'))
 

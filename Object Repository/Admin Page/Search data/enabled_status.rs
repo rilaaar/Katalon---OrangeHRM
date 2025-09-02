@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>verify_list_ESS_roleUser</name>
+   <name>enabled_status</name>
    <tag></tag>
-   <elementGuidId>de07cce2-d7f6-4a32-97d0-1774c2501caa</elementGuidId>
+   <elementGuidId>b634b98b-55e1-4ffd-b5dc-01996b56fffc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[contains(text(),'ESS')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@role='option' and normalize-space()='${optionName}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

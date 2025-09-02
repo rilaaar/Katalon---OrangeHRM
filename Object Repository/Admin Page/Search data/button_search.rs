@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ESS_role_option</name>
+   <name>button_search</name>
    <tag></tag>
-   <elementGuidId>61222702-e5c2-4cb8-bb47-09be140f3a87</elementGuidId>
+   <elementGuidId>887575d4-eeb3-4c08-a68b-75d356bf2f2c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@role='option' and normalize-space()='${optionName}']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//button[text()=' Search ']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

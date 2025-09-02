@@ -19,28 +19,42 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c67deb2b-135d-4ffa-9fe7-1079bf4c5d98</guid>
+      <guid>2c8751da-bc78-4989-8c15-0fb473608d0d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin/Add new admin employee</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fb40eaae-aff2-4a66-a529-63b3f315d374</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin/Add new ESS employee</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b5acc580-5ea0-48e9-9e24-bdbc61e740b5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin/Search enabled admin</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f9a7ad65-abd7-4638-aed7-08650950d7ff</guid>
+      <guid>cfe1b9cf-e5f6-4282-af7a-cbc8c12d6118</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin/Search enabled ESS</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>71d29a2e-76bb-44a8-b431-c404e92a5f9c</guid>
+      <guid>311599de-8ac6-4269-8b82-43d0ca2f0353</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin/Search disabled admin</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>06e48b19-345a-4bdf-9957-9013216fe438</guid>
+      <guid>442f6e19-cb76-4ed5-a46b-c51b32473bfe</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin/Search disabled ESS</testCaseId>

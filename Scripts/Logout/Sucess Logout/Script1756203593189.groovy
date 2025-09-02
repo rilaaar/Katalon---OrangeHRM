@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Basic/Open to get url'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('Basic/Auth_login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Profile Option/profile_button'))
@@ -26,6 +24,4 @@ WebUI.click(findTestObject('Profile Option/profile_button'))
 WebUI.click(findTestObject('Profile Option/logout_button'))
 
 WebUI.verifyElementVisible(findTestObject('Login Page/login_title'))
-
-WebUI.callTestCase(findTestCase('Basic/Close browser'), [:], FailureHandling.STOP_ON_FAILURE)
 

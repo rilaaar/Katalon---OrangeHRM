@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_select_status</name>
+   <name>input_password</name>
    <tag></tag>
-   <elementGuidId>77c53091-3eb9-44ec-adb2-58f85afd70cc</elementGuidId>
+   <elementGuidId>c60c3b35-4318-40ad-b6ac-ff4b5dfd4a56</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@class='oxd-select-text--after'])[2]</value>
+         <value>(//input[@autocomplete='off' and contains(@class,'oxd-input')])[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>

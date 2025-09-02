@@ -1,0 +1,29 @@
+{
+  "keywordFileContentHash": "8532644C6FBB72045A30A1F4CD823236",
+  "keywordClasses": [
+    {
+      "name": "myPackage.MyKeywords",
+      "keywordMethods": [
+        {
+          "name": "generateRandomPassword",
+          "parameters": [
+            {
+              "name": "length",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

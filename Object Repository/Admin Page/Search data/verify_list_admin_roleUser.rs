@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>enabled_status</name>
+   <name>verify_list_admin_roleUser</name>
    <tag></tag>
-   <elementGuidId>b634b98b-55e1-4ffd-b5dc-01996b56fffc</elementGuidId>
+   <elementGuidId>1071fabb-db87-4c7f-bdde-d5b13e8c5c09</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@role='option' and normalize-space()='${optionName}']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[contains(text(),'Admin')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

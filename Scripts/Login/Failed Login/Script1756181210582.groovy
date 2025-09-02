@@ -17,15 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Basic/Open to get url'), [:], FailureHandling.STOP_ON_FAILURE)
+String randomPassword = CustomKeywords.'myPackage.MyKeywords.generateRandomPassword'(8)
+
 
 WebUI.setText(findTestObject('Login Page/input_Username_username'), 'Admin')
 
-WebUI.setEncryptedText(findTestObject('Login Page/input_Password_password'), 'hUKwJTbofgPskEWN4pMTBw==')
+WebUI.setText(findTestObject('Login Page/input_Password_password'), randomPassword)
 
 WebUI.click(findTestObject('Login Page/button_Login'))
 
 WebUI.verifyElementVisible(findTestObject('Login Page/error message'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Basic/Close browser'), [:], FailureHandling.STOP_ON_FAILURE)
 

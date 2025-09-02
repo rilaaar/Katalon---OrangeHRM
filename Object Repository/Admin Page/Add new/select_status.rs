@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>disabled_status</name>
+   <name>select_status</name>
    <tag></tag>
-   <elementGuidId>a77d23fa-6271-49d6-85db-eddf0850f588</elementGuidId>
+   <elementGuidId>668e32fa-9970-4019-b9f6-d7f3dd1ee994</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@role='option' and normalize-space()='${optionName}']</value>
+         <value>(//div[@class=&quot;oxd-select-text-input&quot;])[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>

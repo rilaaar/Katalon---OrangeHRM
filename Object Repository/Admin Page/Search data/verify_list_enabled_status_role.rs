@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>verify_list_admin_roleUser</name>
+   <name>verify_list_enabled_status_role</name>
    <tag></tag>
-   <elementGuidId>1071fabb-db87-4c7f-bdde-d5b13e8c5c09</elementGuidId>
+   <elementGuidId>9a1b0eb9-25fb-4ad6-b9be-1a5ceab15124</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[contains(text(),'Admin')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@role='row']//div[normalize-space()='Enabled']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
